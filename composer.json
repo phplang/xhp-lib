@@ -1,0 +1,32 @@
+{
+  "name": "phplang/xhp-lib",
+  "description": "XHP XHTML PHP library for xhp",
+  "version": "1.0.0-dev",
+  "type": "library",
+  "keywords": [
+    "hacklang",
+    "xhp"
+  ],
+  "homepage": "https://github.com/phplang/xhp-lib",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Sara Golemon",
+      "email": "pollita@php.net",
+      "homepage": "https://twitter.com/SaraMG",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "core.php",
+      "html.php"
+    ]
+  },
+  "require": {
+    "ext-xhp": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
