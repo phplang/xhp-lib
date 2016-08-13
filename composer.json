@@ -1,7 +1,6 @@
 {
   "name": "phplang/xhp-lib",
   "description": "XHP XHTML PHP library for xhp",
-  "version": "1.0.0-dev",
   "type": "library",
   "keywords": [
     "hacklang",
