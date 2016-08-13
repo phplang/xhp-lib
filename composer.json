@@ -18,6 +18,9 @@
     }
   ],
   "autoload": {
+    "psr-4": {
+      "PhpLang\\XhpLib\\": "src/"
+    },
     "files": [
       "core.php",
       "html.php"
