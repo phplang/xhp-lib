@@ -24,8 +24,8 @@ And in src/xhp-autoload.php:
 <?php
 
 (new PhpLang\XhpLib\ClassLoader([
-  ':view' => 'view/',
+  ':view' => __DIR__ . '/../view/',
 ])->register();
 ```
 
-In the above example, tags like &lt;view:card:foo/&gt; will be autoloaded from `view/card/foo.php`
+In the above example, tags like &lt;view:card:foo/&gt; will be autoloaded from `view/card/foo.php` in the package root.
